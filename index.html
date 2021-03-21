@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Hello!</title>
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <h1>Test Your Memory!</h1>
+    
+    <p>
+      Can you repeat the patterns back?
+    </p>
+    <p id="difficulty">
+      <button onclick="setDiff(1)">
+        Easy (5 Chances)
+      </button>
+      <button onclick="setDiff(2)">
+        Medium (3 Chances)
+      </button>
+      <button onclick="setDiff(3)">
+        HARD (1 Chance)
+      </button>
+    </p>
+    <p id="clock" class="hidden">
+    </p>
+    <p id="chances" class="hidden">
+    </p>
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" class="hidden" onclick="stopGame()">
+      Stop
+    </button>
+
+    <div id="gameButtonArea">
+      <button
+        id="button1"
+        onmousedown="startTone(1);displayImage(1)"
+        onmouseup="stopTone();hideImage(1)"
+        onclick="guess(1)"
+      >
+        <img src="https://cdn.glitch.com/4b8ceaf4-0cc3-482d-81e8-d358eac3c019%2Fmusicnote.png?v=1616267684024" id="musicnote1" width="30" class="hidden icon">
+      </button>
+      <button
+        id="button2"
+        onmousedown="startTone(2);displayImage(2)"
+        onmouseup="stopTone();hideImage(2)"
+        onclick="guess(2)"
+      >
+        <img src="https://cdn.glitch.com/4b8ceaf4-0cc3-482d-81e8-d358eac3c019%2Fmusicnote.png?v=1616267684024" id="musicnote2" width="30" class="hidden icon">
+      </button>
+      <button
+        id="button3"
+        onmousedown="startTone(3);displayImage(3)"
+        onmouseup="stopTone();hideImage(3)"
+        onclick="guess(3)"
+      >
+        <img src="https://cdn.glitch.com/4b8ceaf4-0cc3-482d-81e8-d358eac3c019%2Fmusicnote.png?v=1616267684024" id="musicnote3" width="30" class="hidden icon">
+      </button>
+      <button
+        id="button4"
+        onmousedown="startTone(4);displayImage(4)"
+        onmouseup="stopTone();hideImage(4)"
+        onclick="guess(4)"
+      >
+        <img src="https://cdn.glitch.com/4b8ceaf4-0cc3-482d-81e8-d358eac3c019%2Fmusicnote.png?v=1616267684024" id="musicnote4" width="30" class="hidden icon">
+      </button>
+      <button
+        id="button5"
+        onmousedown="startTone(5);displayImage(5)"
+        onmouseup="stopTone();hideImage(5)"
+        onclick="guess(5)"
+      >
+        <img src="https://cdn.glitch.com/4b8ceaf4-0cc3-482d-81e8-d358eac3c019%2Fmusicnote.png?v=1616267684024" id="musicnote5" width="30" class="hidden icon">
+      </button>
+      <button
+        id="button6"
+        onmousedown="startTone(6);displayImage(6)"
+        onmouseup="stopTone();hideImage(6)"
+        onclick="guess(6)"
+      >
+        <img src="https://cdn.glitch.com/4b8ceaf4-0cc3-482d-81e8-d358eac3c019%2Fmusicnote.png?v=1616267684024" id="musicnote6" width="30" class="hidden icon">
+      </button>
+      <button
+        id="button7"
+        onmousedown="startTone(7);displayImage(7)"
+        onmouseup="stopTone();hideImage(7)"
+        onclick="guess(7)"
+      >
+        <img src="https://cdn.glitch.com/4b8ceaf4-0cc3-482d-81e8-d358eac3c019%2Fmusicnote.png?v=1616267684024" id="musicnote7" width="30" class="hidden icon">
+      </button>
+      <button
+        id="button8"
+        onmousedown="startTone(8);displayImage(8)"
+        onmouseup="stopTone();hideImage(8)"
+        onclick="guess(8)"
+      >
+        <img src="https://cdn.glitch.com/4b8ceaf4-0cc3-482d-81e8-d358eac3c019%2Fmusicnote.png?v=1616267684024" id="musicnote8" width="30" class="hidden icon">
+      </button>
+    </div>
+  </body>
+</html>
