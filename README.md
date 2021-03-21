@@ -45,17 +45,17 @@ Here's a walkthrough of implemented user stories:
 - Testing game exiting on loss or stop, as well as different difficulties - https://recordit.co/BfNkPNyRyR
 - Testing lose condition by running out timer - https://recordit.co/oIIpXHp0sn
 - Changing timer to 3 and testing out the bugfix from (#2) - https://recordit.co/37rc9Kfttp
-Each test also shows different patterns, pictures in lit buttons, and 8 buttons
+- Each test also shows different patterns, pictures in lit buttons, and 8 buttons
 
 
 ## Reflection Questions
 
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here.
-   Math.random: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
-   Images in buttons: https://www.quackit.com/html/tags/html_button_tag.cfm
-   Image tag: https://www.w3schools.com/tags/tag_img.asp
-   Multiple function calls for onclick: https://stackoverflow.com/questions/3910736/how-to-call-multiple-javascript-functions-in-onclick-event
-   setInterval guide: https://javascript.info/settimeout-setinterval
+- Math.random: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+- Images in buttons: https://www.quackit.com/html/tags/html_button_tag.cfm
+- Image tag: https://www.w3schools.com/tags/tag_img.asp
+- Multiple function calls for onclick: https://stackoverflow.com/questions/3910736/how-to-call-multiple-javascript-functions-in-onclick-event
+- setInterval guide: https://javascript.info/settimeout-setinterval
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
    One challenge I encountered in creating this submission was in implementing the timer. Although adding the timer itself was not difficult - just use setInterval and clearInterval when the timer needs to start or stop -
