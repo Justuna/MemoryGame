@@ -40,11 +40,11 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 (Due to recordit choppiness, sometimes the buttons do not appear to light up on press, just because I press them really fast)
-A normal game (loss) with increasing speed - https://recordit.co/1JouuX8U1V
-A normal game (win) with increasing speed - https://recordit.co/Xnp3WLYdNP
-Testing game exiting on loss or stop, as well as different difficulties - https://recordit.co/BfNkPNyRyR
-Testing lose condition by running out timer - https://recordit.co/oIIpXHp0sn
-Changing timer to 3 and testing out the bugfix from (#2) - https://recordit.co/37rc9Kfttp
+- A normal game (loss) with increasing speed - https://recordit.co/1JouuX8U1V
+- A normal game (win) with increasing speed - https://recordit.co/Xnp3WLYdNP
+- Testing game exiting on loss or stop, as well as different difficulties - https://recordit.co/BfNkPNyRyR
+- Testing lose condition by running out timer - https://recordit.co/oIIpXHp0sn
+- Changing timer to 3 and testing out the bugfix from (#2) - https://recordit.co/37rc9Kfttp
 Each test also shows different patterns, pictures in lit buttons, and 8 buttons
 
 
